@@ -9,7 +9,6 @@ package ru.job4j;
  * @since 17.07.18
  */
 public class MoveUp extends Move {
-    private float delta;
     private String direction = "Up";
 
     public MoveUp(float delta) {
