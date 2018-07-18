@@ -1,5 +1,13 @@
 package ru.job4j;
 
+/**
+ * Класс представляет вариант изменения
+ * координаты на плоскости влево на заданную величину
+ * {@code delta}.
+ *
+ * @author Mikhailov Sergey Mikhailov
+ * @since 17.07.18
+ */
 public class MoveLeft extends Move {
     private String direction = "Left";
 

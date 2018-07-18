@@ -101,6 +101,21 @@ public class TrafficControlDot {
         }
     }
 
+    /**
+     * Метод сохраняет следующий возможный шаг <code>Move</code>
+     * в <code>steps</code>.
+     * При этом шаг не может быть больше заданной величины
+     * <code>dxmax</code> по оси абсцисс
+     * <code>dymax</code> по оси ординат
+     * и не может быть меньше заданной величины
+     * <code>dxmin</code> по оси абсцисс
+     * <code>dymin</code> по оси ординат
+     * Возможность шага проверяется сначала по оси ординат, а
+     * затем по оси ординат.
+     *
+     * @param dotX координата по оси абсцисс текущей точки <code>Dot</code>
+     * @param dotY координата по оси ординат текущей точки <code>Dot</code>
+     */
     private void addNextStepsWhenLimitOnTopAndBelow(float dotX, float dotY) {
         result.add(new Dot(dotX, dotY));
         float deltaY = endY - dotY;

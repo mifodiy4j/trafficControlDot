@@ -1,4 +1,4 @@
-
+[![Build Status](https://travis-ci.org/mifodiy4j/trafficControlDot.svg?branch=master)](https://travis-ci.org/mifodiy4j/trafficControlDot)
 
 
 # trafficControlDot

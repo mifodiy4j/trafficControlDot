@@ -1,5 +1,13 @@
 package ru.job4j;
 
+/**
+ * Класс представляет вариант изменения
+ * координаты на плоскости вверх на заданную величину
+ * {@code delta}.
+ *
+ * @author Mikhailov Sergey Mikhailov
+ * @since 17.07.18
+ */
 public class MoveUp extends Move {
     private float delta;
     private String direction = "Up";
